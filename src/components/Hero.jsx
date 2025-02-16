@@ -11,7 +11,7 @@ const Hero = () => {
           {/* Sponsor 1 */}
           <div className="group relative">
             <img
-              src="public/fav-dark.jpg"
+              src="/fav-dark.jpg"
               alt="Brand 1"
               className="w-12 h-12 object-contain rounded-md cursor-pointer transition-transform duration-200 hover:scale-110"
             />
@@ -23,7 +23,7 @@ const Hero = () => {
           {/* Sponsor 2 */}
           <div className="group relative">
             <img
-              src="public/fav.jpg"
+              src="/fav.jpg"
               alt="Brand 2"
               className="w-12 h-12 object-contain rounded-md cursor-pointer transition-transform duration-200 hover:scale-110"
             />

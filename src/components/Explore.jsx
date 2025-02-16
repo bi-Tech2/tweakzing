@@ -6,20 +6,20 @@ import { Slide } from "react-awesome-reveal";
 import BorderRadiusAdjuster from "../components/BorderRadiusAdjuster.jsx"
 
 const componentsList = [
-  { title: "Login Form", img: "public/login.jpg", link: "/" },
-  { title: "Popup", img: "public/popup.jpg", link: "/" },
-  { title: "Testimonials", img: "public/img2.jpg", link: "/" },
-  { title: "Sidebar", img: "public/img3.jpg", link: "/" },
-  { title: "Paginations", img: "public/img1.jpg", link: "/" },
-  { title: "Pricing", img: "public/pricing.jpg", link: "/" },
-  { title: "Signup Form", img: "public/signup.jpg", link: "/" },
-  { title: "Plain Forms", img: "public/img5.jpg", link: "/" },
-  { title: "Footer", img: "public/img6.jpg", link: "/" },
-  { title: "Calender", img: "public/img7.jpg", link: "/" },
-  { title: "Alerts", img: "public/img8.jpg", link: "/" },
-  { title: "Claims", img: "public/img9.jpg", link: "/" },
-  { title: "user Profile", img: "public/img10.jpg", link: "/" },
-  { title: "Carousel", img: "public/img4.jpg", link: "/" },
+  { title: "Login Form", img: "/login.jpg", link: "/" },
+  { title: "Popup", img: "/popup.jpg", link: "/" },
+  { title: "Testimonials", img: "/img2.jpg", link: "/" },
+  { title: "Sidebar", img: "/img3.jpg", link: "/" },
+  { title: "Paginations", img: "/img1.jpg", link: "/" },
+  { title: "Pricing", img: "/pricing.jpg", link: "/" },
+  { title: "Signup Form", img: "/signup.jpg", link: "/" },
+  { title: "Plain Forms", img: "/img5.jpg", link: "/" },
+  { title: "Footer", img: "/img6.jpg", link: "/" },
+  { title: "Calender", img: "/img7.jpg", link: "/" },
+  { title: "Alerts", img: "/img8.jpg", link: "/" },
+  { title: "Claims", img: "/img9.jpg", link: "/" },
+  { title: "user Profile", img: "/img10.jpg", link: "/" },
+  { title: "Carousel", img: "/img4.jpg", link: "/" },
 ];
 
 const Explore = () => (

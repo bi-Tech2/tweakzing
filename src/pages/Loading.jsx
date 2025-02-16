@@ -22,7 +22,7 @@ const Loading = () => {
           <Slide triggerOnce top delay={500}>
             <div className="io">
               <img
-                src="public/fav1.png"
+                src="/fav1.png"
                 alt="Logo"
                 className="loader-logo"
               />

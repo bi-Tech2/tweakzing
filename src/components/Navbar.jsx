@@ -38,7 +38,7 @@ const Navbar = () => {
         {/* Logo & Page Title */}
         <div className="flex gap-2 items-center">
           <Link to="/" className="text-2xl font-bold">
-            <img src="src/assets/tweakz.jpg" className="md:w-38 w-30 bg-black px-2 rounded-lg" alt="Tweakz Logo" />
+            <img src="../assets/tweakz.jpg" className="md:w-38 w-30 bg-black px-2 rounded-lg" alt="Tweakz Logo" />
           </Link>
           <div className="text-white text-sm mt-1">{getPageTitle()}</div>
         </div>
