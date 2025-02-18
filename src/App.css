@@ -89,7 +89,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
-
+::-webkit-scrollbar {
+  background-color: #090909;
+  /* display: none; */
+}
 
 @keyframes glowing {
     0% {
@@ -186,4 +189,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
   ::selection{
     background: #121212;
+  }
+
+  .bgu{
+    background-color: rgba(0, 0, 0, 0.868);
+    backdrop-filter: blur(30px);
   }

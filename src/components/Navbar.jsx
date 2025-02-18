@@ -1,10 +1,16 @@
 import { Link, useLocation } from "react-router-dom";
 import { FaQuestionCircle, FaGithub, FaLink } from "react-icons/fa";
 import { Fade, Slide } from "react-awesome-reveal";
+import {useState} from "react";
+import About from "./About.jsx" 
 
 
 const Navbar = () => {
   const location = useLocation();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
 
   const getPageTitle = () => {
     switch (location.pathname) {
@@ -47,10 +53,10 @@ const Navbar = () => {
         <ul className="gap-2 md:gap-7 text-[20px] text-white items-center flex">
           <Slide triggerOnce top delay={700}>
             <li>
-              <Link to="/about" className="btn-glow flex gap-2">
+              <button onClick={openModal} className="btn-glow flex gap-2">
                 <FaQuestionCircle />
                 <span className="md:block hidden">About</span>
-              </Link>
+              </button>
             </li>
           </Slide>
           <Slide triggerOnce top delay={500}>
@@ -62,6 +68,7 @@ const Navbar = () => {
           </Slide>
         </ul>
       </div>
+      <About isOpen={isModalOpen} onClose={closeModal} />
     </nav>
   );
 };
