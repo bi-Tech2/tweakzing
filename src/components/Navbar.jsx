@@ -64,6 +64,9 @@ const Navbar = () => {
               <Link to="/about" className="btn-glow flex gap-4 px-0 py-4 rounded-full items-center md:text-lg text-2xl">
                 <FaGithub /> <span className="md:block hidden">Star on GitHub</span>
               </Link>
+              <Link to="/login" className="btn-glow flex gap-4 px-0 py-4 rounded-full items-center md:text-lg text-2xl">
+                <FaGithub /> <span className="md:block hidden">Login</span>
+              </Link>
             </button>
           </Slide>
         </ul>
