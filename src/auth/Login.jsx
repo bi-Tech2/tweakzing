@@ -18,7 +18,7 @@ const Login = () => {
 
       <Link to="/" className=" absolute top-5 left-5 z-50">
         <img
-          src="public/tweakz.jpg"
+          src="/tweakz.jpg"
           className="w-24 h-10 p-1 bg-black rounded-md md:hidden block"
           alt=""
         />
@@ -120,7 +120,7 @@ const Login = () => {
 
       <div className="-mb-10">
         <Link to="/" className="h-screen max-w-7xl md:block hidden igo z-40 absolute rounded-md top-5 right-5">
-          <img src="public/fav.jpg" className="w-14 h-14 rounded-lg" alt="" />
+          <img src="/fav.jpg" className="w-14 h-14 rounded-lg" alt="" />
         </Link>
         <div class="context"></div>
 
